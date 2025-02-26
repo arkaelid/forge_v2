@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sullivan-jarry.fr/sitemap.xml

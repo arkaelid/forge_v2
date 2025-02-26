@@ -1,51 +1,244 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Sullivan Jarry, contact@sullivan-jarry.fr" />
+    <meta name="robots" content="index, follow" />
+    <meta
+      name="keywords"
+      content="forge, armes, pop culture, répliques, fans, pièces uniques"
+    />
+    <meta name="language" content="French" />
+    <meta
+      name="copyright"
+      content="Sullivan Jarry, contact@sullivan-jarry.fr"
+    />
+    <meta name="subject" content="Site vitrine pour le Creuset de Vulcain" />
+    <meta
+      name="audience"
+      content="Fans de la pop culture, collectionneurs, amateurs de création artisanale"
+    />
+    <meta name="rating" content="General" />
+    <meta name="revisit-after" content="1 days" />
+    <meta name="og:site_name" content="Le Creuset de Vulcain" />
+    <meta name="og:title" content="Le Creuset de Vulcain" />
+    <meta
+      name="og:description"
+      content="Découvre ma forge d'armes issus de la pop culture. Répliques pour les fans, créées avec passion. Exprime-toi avec nos pièces uniques."
+    />
+    <meta name="og:image" content="./assets/images/Logo.svg.svg" />
+    <meta name="og:url" content="https://www.lecreusetdevulcain.com/" />
+    <meta name="og:type" content="website" />
+    <meta name="og:locale" content="fr_FR" />
+    <meta name="og:image:width" content="1200" />
+    <meta name="og:image:height" content="630" />
+    <meta name="og:image:alt" content="Logo du Creuset de Vulcain" />
+    <meta name="og:image:secure_url" content="./assets/images/Logo.svg.svg" />
+    <meta name="og:image:width" content="1200" />
+    <meta name="og:image:height" content="630" />
+
+    <link rel="icon" type="image.icon" href="./assets/images/Logo.svg.svg" />
+    <title>Le Creuset de Vulcain</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  </head>
+  <body>
     <header>
-        <nav>
-       <div class="nav">
-           
+      <nav>
+        <div class="nav">
+          <div class="menu-items">
+            <div class="hamburger-menu">
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+            </div>
+            <ul class="nav_menu">
+              <li><a class="menuItem" href="#cards">Mes produits</a></li>
+              <li><a class="menuItem" href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
-          
-                       
-       
-           <div class="menu-items">
-               <ul class="nav_menu showMenu">
-                   <li><a class="menuItem" href="#cards">Mes produits</a></li>
-                   <li><a class="menuItem" href="#contact">Contact</a></li>
-               </ul>
-           </div>
-          <button class="hamburger"> 
-               <i class="menuIcon fa-solid fa-bars"> Menu</i>
-               <i class="closeIcon fa-solid fa-xmark"> Close</i>
-           </button>
-          
-           
-       </div>
-      
-   </nav>
-   
-           <div class="bg-video">
-               <video autoplay="autoplay" muted="" loop src="./assets/images/bgvideo.mp4" >
-
-               </video>
-             <div class="navImg">
-               <img src="./assets/images/logo.svg.svg" alt="Logo Creuset de Vulcain Forgeron">
-               </div>
-           </div>
-           
-   </header>
-   <main>
-    
-   </main>
-    
-
-    <script src="assets/js/script.js"></script>
-</body>
+      <div class="bg-video">
+        <video
+          autoplay="autoplay"
+          muted=""
+          loop
+          src="./assets/images/bgvideo.mp4"
+        ></video>
+        <div class="navImg">
+          <img
+            src="./assets/images/logo.svg.svg"
+            alt="Logo Creuset de Vulcain Forgeron"
+          />
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <div class="cardPresentationText">
+          <h1>Qui suis-je ?</h1>
+          <p>
+            Jeune passionne de jeux video, de pop culture et des metiers du
+            travail de l'acier. J'ai decider de lier mes passions dans une
+            entreprise de creation de replications decoratif.
+          </p>
+          <p>
+            Base dans la region tourangelle, j'exerce mon activité pour repondre
+            aux demandes de mes clients.
+          </p>
+        </div>
+      </div>
+      <div class="Carousel" id="cards">
+        <h2>Mes Realisations</h2>
+        <div class="CarouselContent">
+          <button class="carousel-button prev">&#10094;</button>
+          <div class="carousel-container">
+            <div class="carousel-slide">
+              <img src="assets/images/carousel/arme triple.jpg" alt="Image 1" />
+            </div>
+            <div class="carousel-slide">
+              <img src="assets/images/carousel/armesplat.jpg" alt="Image 2" />
+            </div>
+            <div class="carousel-slide">
+              <img src="assets/images/carousel/double faux.jpg" alt="Image 3" />
+            </div>
+            <div class="carousel-slide">
+              <img src="assets/images/carousel/faux + épée.jpg" alt="Image 4" />
+            </div>
+            <div class="carousel-slide">
+              <img src="assets/images/carousel/faux.jpg" alt="Image 5" />
+            </div>
+            <div class="carousel-slide">
+              <img src="assets/images/carousel/lame_detail.jpg" alt="Image 6" />
+            </div>
+            <div class="carousel-slide">
+              <img
+                src="assets/images/carousel/lame_detail2.jpg"
+                alt="Image 7"
+              />
+            </div>
+            <div class="carousel-slide">
+              <img src="assets/images/carousel/lame.jpg" alt="Image 8" />
+            </div>
+            <div class="carousel-slide">
+              <img src="assets/images/carousel/lamesx3.jpg" alt="Image 9" />
+            </div>
+            <div class="carousel-slide">
+              <img src="assets/images/carousel/poignée.jpg" alt="Image 10" />
+            </div>
+            <div class="carousel-slide">
+              <img src="assets/images/carousel/prépa.jpg" alt="Image 11" />
+            </div>
+            <div class="carousel-slide">
+              <img src="assets/images/carousel/prépa2.jpg" alt="Image 12" />
+            </div>
+            <div class="carousel-slide">
+              <img src="assets/images/carousel/sabre.jpg" alt="Image 13" />
+            </div>
+          </div>
+          <button class="carousel-button next">&#10095;</button>
+          <div class="carousel-dots"></div>
+        </div>
+      </div>
+      <div class="contact" id="contact">
+        <h2>Contactez-moi</h2>
+        <div class="contactContent">
+          <div class="contactMail">
+            <div class="contactMailerMessage">
+              <p>N'hesitez pas a me contacter pour toute demande ou devis.</p>
+            </div>
+            <div class="contactMailerIco">
+              <a href="mailto:contact@lecreusetdevulcain.com">
+                contact@lecreusetdevulcain.com
+                <span><i class="fa-regular fa-envelope"></i></span>
+              </a>
+            </div>
+          </div>
+          <div class="contactReseaux">
+            <div class="contactSocial">
+              <div class="contactInsta">
+                <h4>Mon Instagram</h4>
+                <a
+                  href="https://www.instagram.com/le_creuset_de_vulcain/"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+              </div>
+              <div class="contactTiktok">
+                <h4>Mon TikTok</h4>
+                <a
+                  href="https://www.tiktok.com/@lecreusetdevulcain"
+                  target="_blank"
+                >
+                  <i class="fa-brands fa-tiktok"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footerGrid">
+        <div class="footerGridImg">
+          <a href="./index.html">
+            <img
+              src="./assets/images/logo.svg.svg"
+              alt="Logo creuset Vulcain Forge"
+            />
+          </a>
+        </div>
+        <div class="footerGridMentions">
+          <ul>
+            <li><a href="./MentionsLegales.html">Mentions Legales</a></li>
+            <li><a href="./CGU.html">Conditions Generales d'Utilisation</a></li>
+            <li><p>© 2024 Le Creuset De Vulcain, Tous droits réservés.</p></li>
+          </ul>
+        </div>
+        <div class="footerGridContact">
+          <ul>
+            <li>
+              <a href="mailto:contact@lecreusetdevulcain.com">
+                contact@lecreusetdevulcain.com
+                <span><i class="fa-regular fa-envelope"></i></span>
+              </a>
+            </li>
+            <li class="footerSocial">
+              <a
+                href="https://www.instagram.com/le_creuset_de_vulcain/"
+                target="_blank"
+              >
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </li>
+            <li class="footerSocial">
+              <a
+                href="https://www.tiktok.com/@lecreusetdevulcain"
+                target="_blank"
+              >
+                <i class="fa-brands fa-tiktok"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="assets/js/scripts.js"></script>
+  </body>
 </html>
